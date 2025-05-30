@@ -1,7 +1,6 @@
-
 services:
   - type: web
     name: shellcoach-web
     env: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "python app.py"
+    startCommand: "python3 app.py"
